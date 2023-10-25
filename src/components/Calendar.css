@@ -1,0 +1,28 @@
+.calendar-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 50vh; /* Asegurarse de que el contenedor ocupe al menos la altura de la ventana */
+  }
+  
+  .centered-calendar {
+    max-width: 900px; /* Define un ancho máximo para el calendario */
+  }
+  
+  .confirm-button {
+    display: block;
+    width: 100%; /* Haz que el botón ocupe toda la anchura del contenedor */
+    background-color: green; /* Cambia el color de fondo del botón a verde */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 10px; /* Añade un relleno para mejorar el aspecto del botón */
+    border: none; /* Elimina el borde del botón */
+    margin-top: 10px; /* Agrega un margen superior para separar el botón del calendario */
+    border-radius: 5px;
+  }
+  
+  .react-calendar__navigation {
+    background-color: #ffffff;
+    color: #fff;
+  }
+
+  
